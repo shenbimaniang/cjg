@@ -8,7 +8,7 @@
             http://www.springframework.org/schema/context/spring-context.xsd
             ">
     <!--扫描com.cjg.dao包下（或者其子包下）的所有注解类-->
-    <context:component-scan base-package="com.cjg.dao"/>
+    <context:component-scan base-package="com.cjg.pay.dao"/>
     <!--引入数据库配置文件-->
     <context:property-placeholder location="classpath:db.properties"/>
     <!--配置数据库连接池-->
@@ -29,15 +29,15 @@
         <!--注入mybatis的主配置文件-->
         <property name="configLocation" value="classpath:mybatis/mybatis-config.xml"/>
         <!--注入dao层的mapper映射文件-->
-        <property name="mapperLocations" value="classpath*:com/cjg/dao/*Mapper.xml"/>
-        <property name="typeAliasesPackage" value="com.xy.cjg.pojo.po"/>
+        <property name="mapperLocations" value="classpath*:com/cjg/pay/dao/*Mapper.xml"/>
+        <property name="typeAliasesPackage" value="com.cjg.pay.pojo.po"/>
     </bean>
     <!--配置完之后，DAO层接口就不需要实现了-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <!--注入mybatis会话工厂-->
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
         <!--在这个包下的所有接口是不需要实现的-->
-        <property name="basePackage" value="com.xy.cjg.dao"/>
+        <property name="basePackage" value="com.cjg.pay.dao"/>
     </bean>
 
 

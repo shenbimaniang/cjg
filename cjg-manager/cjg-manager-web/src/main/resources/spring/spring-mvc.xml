@@ -12,7 +12,7 @@
             ">
     <!--扫描com.cjg.web包下（或者其子包下）的所有注解类-->
     <!--什么叫被扫描到？ 凡是被扫描到的Action，就会放到IoC容器中，换句话说，当控制反转容器启动的时候，就会把Action实例化-->
-    <context:component-scan base-package="com.cjg.action.web"/>
+    <context:component-scan base-package="com.cjg.pay.web"/>
     <!--@RequestMapping @ResponseBody-->
     <!--第一步：在pom.xml中添加jackson2的依赖-->
     <!--第二步：在spring-mvc.xml添加<mvc:annotation-driven/>-->
