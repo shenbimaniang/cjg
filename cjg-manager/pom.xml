@@ -17,6 +17,7 @@
         <module>cjg-manager-interface</module>
         <module>cjg-manager-service</module>
         <module>cjg-manager-web</module>
+        <module>cjg-manager-web-expoler</module>
     </modules>
     <artifactId>cjg-manager</artifactId>
 

@@ -12,6 +12,7 @@
         <module name="cjg-manager-pojo" />
         <module name="cjg-manager-service" />
         <module name="cjg-manager-web" />
+        <module name="cjg-manager-web-expoler" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
@@ -22,6 +23,7 @@
       <module name="cjg-manager-pojo" target="1.5" />
       <module name="cjg-manager-service" target="1.5" />
       <module name="cjg-manager-web" target="1.5" />
+      <module name="cjg-manager-web-expoler" target="1.5" />
       <module name="cjg-parent" target="1.5" />
     </bytecodeTargetLevel>
   </component>

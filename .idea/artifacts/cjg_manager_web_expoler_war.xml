@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cjg-manager-web-expoler:war">
+    <output-path>$PROJECT_DIR$/cjg-manager/cjg-manager-web-expoler/target</output-path>
+    <root id="archive" name="cjg-manager-web-expoler.war">
+      <element id="artifact" artifact-name="cjg-manager-web-expoler:war exploded" />
+    </root>
+  </artifact>
+</component>

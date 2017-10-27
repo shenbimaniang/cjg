@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/cjg-manager/cjg-manager-pojo/cjg-manager-pojo.iml" filepath="$PROJECT_DIR$/cjg-manager/cjg-manager-pojo/cjg-manager-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/cjg-manager/cjg-manager-service/cjg-manager-service.iml" filepath="$PROJECT_DIR$/cjg-manager/cjg-manager-service/cjg-manager-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/cjg-manager/cjg-manager-web/cjg-manager-web.iml" filepath="$PROJECT_DIR$/cjg-manager/cjg-manager-web/cjg-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cjg-manager/cjg-manager-web-expoler/cjg-manager-web-expoler.iml" filepath="$PROJECT_DIR$/cjg-manager/cjg-manager-web-expoler/cjg-manager-web-expoler.iml" />
       <module fileurl="file://$PROJECT_DIR$/cjg-parent/cjg-parent.iml" filepath="$PROJECT_DIR$/cjg-parent/cjg-parent.iml" />
     </modules>
   </component>

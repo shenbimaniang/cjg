@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cjg.pay.dao.RpUserInfoCustomMapper" >
+<sql id="Base_Column_List" >
+    id, create_time, status, user_no, user_name AS userName, account_no, mobile, password, pay_pwd
+</sql>
+
+    <select id="selecByUsername" resultType="com.cjg.pay.pojo.po.RpUserInfo">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM rp_user_info
+        WHERE user_name = #{userInfo.userName}
+    </select>
+</mapper>
